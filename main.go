@@ -8,13 +8,6 @@ import (
 	"gorm.io/gorm"
 )
 
-const (
-	host     = "awsdb.clg9pxaxypoz.us-east-2.rds.amazonaws.com"
-	database = "gorm"
-	user     = "awsuser"
-	password = "quddnr!2"
-)
-
 type User struct {
 	gorm.Model
 	ID   uint `gorm:"primary_key"`
